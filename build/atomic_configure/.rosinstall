@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/neeraj/eyrc_ros/devel/setup.sh
+    local-name: /home/ds3a/sentinel_drone_ws/devel/setup.sh

@@ -1,2 +1,2 @@
-pid_tune:sentinel_drone/sentinel_drone:sentinel_drone/task_1/edrone_client:sentinel_drone/task_1/edrone_server:sentinel_drone/task_1/mav_comm/mav_comm:sentinel_drone/task_1/mav_comm/mav_msgs:sentinel_drone/task_1/mav_comm/mav_planning_msgs:sentinel_drone/task_1/mav_comm/mav_state_machine_msgs:sentinel_drone/task_1/mav_comm/mav_system_msgs:sentinel_drone/task_1/rotors_comm:sentinel_drone/task_1/rotors_control:sentinel_drone/task_1/rotors_description:sentinel_drone/task_1/rotors_edrone_interface:sentinel_drone/task_1/rotors_gazebo:sentinel_drone/task_1/rotors_gazebo_plugins:sentinel_drone/task_1/rotors_simulator:sentinel_drone/task_1/task_1:sentinel_drone/whycon
--DCATKIN_DEVEL_PREFIX=/home/neeraj/eyrc_ros/devel -DCMAKE_INSTALL_PREFIX=/home/neeraj/eyrc_ros/install -G Unix Makefiles
+
+-DCATKIN_DEVEL_PREFIX=/home/ds3a/sentinel_drone_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ds3a/sentinel_drone_ws/install -G Unix Makefiles

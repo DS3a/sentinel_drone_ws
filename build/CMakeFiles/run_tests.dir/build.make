@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/neeraj/eyrc_ros/src
+CMAKE_SOURCE_DIR = /home/ds3a/sentinel_drone_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/neeraj/eyrc_ros/build
+CMAKE_BINARY_DIR = /home/ds3a/sentinel_drone_ws/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/neeraj/eyrc_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/neeraj/eyrc_ros/src /home/neeraj/eyrc_ros/src /home/neeraj/eyrc_ros/build /home/neeraj/eyrc_ros/build /home/neeraj/eyrc_ros/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ds3a/sentinel_drone_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ds3a/sentinel_drone_ws/src /home/ds3a/sentinel_drone_ws/src /home/ds3a/sentinel_drone_ws/build /home/ds3a/sentinel_drone_ws/build /home/ds3a/sentinel_drone_ws/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 
