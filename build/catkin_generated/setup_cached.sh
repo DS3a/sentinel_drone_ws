@@ -7,8 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'
-export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
+export CMAKE_PREFIX_PATH="/home/ds3a/sentinel_drone_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ds3a/sentinel_drone_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/ds3a/sentinel_drone_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/ds3a/sentinel_drone_ws/build'
-export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages'
-export ROS_PACKAGE_PATH='/home/ds3a/sentinel_drone_ws/src:/opt/ros/noetic/share'
+export PYTHONPATH="/home/ds3a/sentinel_drone_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/home/ds3a/sentinel_drone_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/ds3a/sentinel_drone_ws/src:$ROS_PACKAGE_PATH"
