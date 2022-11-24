@@ -55,6 +55,7 @@ def callback(data):
         #obj_location = rospy.Publisher('/object_location', object_center, queue_size=1)
 
     if (cx is not None) and (cy is not None):
+        P = 0.5 # TODO tune this to get proper shit
         cmd = edrone_msgs()
         dist_x = 240-cx
         dist_y = 320-cy
@@ -62,8 +63,6 @@ def callback(data):
         cmd.rcPitch = P*dist_x
         cmd.rcRoll = P*dist_y
         command_pub.publish(cmd)
-        # TODO set roll, and pitch according to errors
-        # TODO publish the data
 
     cv2.waitKey(1)
 
